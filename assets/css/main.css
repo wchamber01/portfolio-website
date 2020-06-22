@@ -2680,7 +2680,7 @@ button.small,
 
 #header {
   text-align: center;
-  padding: 3em 0 0 0;
+  padding: 1.5em 0 0 0;
   background-color: #fff;
   background-image: url('images/bg02.png'), url('images/bg02.png'),
     url('images/bg01.png');
@@ -2690,7 +2690,8 @@ button.small,
 }
 
 #header h1 {
-  padding: 0 0 2.75em 0;
+  font-size: 3em;
+  /* padding: 0 0 2.75em 0; */
   margin: 0;
 }
 
@@ -3063,13 +3064,13 @@ button.small,
 
   /* Header */
 
-  #header {
+  /* #header {
     padding: 2em 0 0 0;
   }
 
   #header h1 {
     padding: 0 0 1.75em 0;
-  }
+  } */
 
   /* Banner */
 
@@ -3112,6 +3113,33 @@ button.small,
     font-size: 12pt;
     line-height: 1.5em;
   }
+  /* Lists */
+
+  ol {
+    padding-left: 1.25em;
+  }
+
+  ol li {
+    padding-left: 0.25em;
+  }
+
+  /* Icons */
+
+  ul.icons li a,
+  ul.icons li span {
+    font-size: 1.5em;
+  }
+  /* Banner */
+
+  #banner {
+    height: 20em;
+  }
+
+  /* Wrapper */
+
+  .wrapper {
+    padding: 3em 0 1em 0;
+  }
 }
 
 /* Narrower */
@@ -3142,7 +3170,7 @@ button.small,
   h4,
   h5,
   h6 {
-    margin-bottom: 0.5em;
+    margin-bottom: 0;
   }
 
   header p {
@@ -3187,8 +3215,10 @@ button.small,
   }
 
   /* Header */
-
   #header {
+    padding: 1em 0;
+  }
+  #header #nav {
     display: none;
   }
 
