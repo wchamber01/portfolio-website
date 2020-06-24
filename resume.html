@@ -22,12 +22,12 @@
         style="display: flex; flex-direction: column-reverse;"
       >
         <!-- Nav -->
-        <nav id="nav">
+        <nav id="nav" style="background-color: rgba(51, 51, 51, 0.9);">
           <ul>
             <li><a href="index.html">Home</a></li>
             <li class="current"><a href="resume.html">Resume</a></li>
-            <li><a href="index.html">About Me</a></li>
-            <li><a href="index.html">Contact</a></li>
+            <li><a href="/index.html#about">About Me</a></li>
+            <li><a href="/index.html#footer">Contact</a></li>
           </ul>
         </nav>
       </section>
@@ -37,7 +37,6 @@
         <div class="container">
           <div id="content">
             <!-- Content -->
-
             <article>
               <header>
                 <h2>Resume</h2>
@@ -47,14 +46,24 @@
                   >View Resume</a
                 >
               </header>
-              <p>
+              <div
+                style="
+									background-color: #333;
+									width:auto;
+									height: auto
+                  border-radius: 5px;
+                  <!-- display: flex; -->
+                  <!-- align-items: center; -->
+                "
+              >
+                <!-- src=https://resume.creddle.io/embed/6vcnnlpk05h -->
                 <iframe
-                  src="https://resume.creddle.io/embed/6vcnnlpk05h"
+									img src=/images/resume-creddle-io-2020-06-23-14_14_39.jpg
                   width="850"
                   height="1100"
                   seamless
                 ></iframe>
-              </p>
+              </div>
             </article>
           </div>
         </div>
@@ -64,7 +73,7 @@
       <div id="footer">
         <div class="container">
           <div class="row">
-            <section class="col-3 col-6-narrower col-12-mobilep">
+            <!-- <section class="col-3 col-6-narrower col-12-mobilep">
               <h3>Links to Stuff</h3>
               <ul class="links">
                 <li><a href="#">Mattis et quis rutrum</a></li>
@@ -87,8 +96,8 @@
                 <li><a href="#">Sed et dapibus quis</a></li>
                 <li><a href="#">Rutrum amet varius</a></li>
               </ul>
-            </section>
-            <section class="col-6 col-12-narrower">
+            </section> -->
+            <!-- <section class="col-6 col-12-narrower">
               <h3>Get In Touch</h3>
               <form>
                 <div class="row gtr-50">
@@ -129,7 +138,7 @@
                   </div>
                 </div>
               </form>
-            </section>
+            </section> -->
           </div>
         </div>
 

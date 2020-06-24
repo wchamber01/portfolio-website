@@ -20,7 +20,7 @@
       <div id="header">
         <!-- Logo -->
         <h1>William Chambers</h1>
-        <em><h2>Full Stack Web Developer</h2></em>
+        <em><h2 style="margin-bottom: 0.5em;">Full Stack Web Developer</h2></em>
 
         <!-- Nav -->
         <nav id="nav">
@@ -28,7 +28,7 @@
             <li class="current"><a href="index.html">Home</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="index.html">About Me</a></li>
-            <li><a href="index.html">Contact</a></li>
+            <li><a href="#footer">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -176,7 +176,7 @@
       <div id="footer">
         <div class="container">
           <div class="row">
-            <section class="col-3 col-6-narrower col-12-mobilep">
+            <!-- <section class="col-3 col-6-narrower col-12-mobilep">
               <h3>Links to Stuff</h3>
               <ul class="links">
                 <li><a href="#">Mattis et quis rutrum</a></li>
@@ -199,10 +199,10 @@
                 <li><a href="#">Sed et dapibus quis</a></li>
                 <li><a href="#">Rutrum amet varius</a></li>
               </ul>
-            </section>
+            </section> -->
             <section class="col-6 col-12-narrower">
               <h3>Get In Touch</h3>
-              <form>
+              <form method="post" action="acknowledge.php">
                 <div class="row gtr-50">
                   <div class="col-6 col-12-mobilep">
                     <input
@@ -217,14 +217,14 @@
                       type="email"
                       name="email"
                       id="email"
-                      placeholder="Email"
+                      placeholder="myemail@domain.com"
                     />
                   </div>
                   <div class="col-12">
                     <textarea
                       name="message"
                       id="message"
-                      placeholder="Message"
+                      placeholder="Greetings William,"
                       rows="5"
                     ></textarea>
                   </div>
@@ -234,6 +234,7 @@
                         <input
                           type="submit"
                           class="button alt"
+                          name="send"
                           value="Send Message"
                         />
                       </li>
@@ -262,7 +263,9 @@
             >
           </li>
           <li>
-            <a href="williamchambers@gmail.com" class="icon solid fa-envelope"
+            <a
+              href="mailto:williamchambers@gmail.com"
+              class="icon solid fa-envelope"
               ><span class="label">Gmail</span></a
             >
           </li>
