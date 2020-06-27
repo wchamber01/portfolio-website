@@ -3008,7 +3008,8 @@ button.small,
 }
 
 #footer .icons a:hover {
-  color: #474747;
+  color: #70a5b5;
+  /* color: #474747; */
 }
 
 #footer .copyright {
