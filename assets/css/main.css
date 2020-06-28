@@ -2174,16 +2174,42 @@ label {
 }
 
 .image.left {
-  display: block;
+  /* display: inline-block; */
   float: left;
   margin: 0 2em 2em 0;
   position: relative;
   top: 0.25em;
+  transition: transform 0.2s; /* Animation */
+  margin: 0 auto;
+}
+
+.image.left:hover {
+  transform: scale(1.25);
+  /* border-style: solid;
+  border-color: rgba(71, 71, 71, 0.3);
+  border-width: 2px; */
+}
+
+.edit {
+  padding: 20px 0 0 40px;
+  position: absolute;
+  display: none;
+  font-size: 100px;
+  color: rgba(71, 71, 71, 0.5);
+}
+
+.edit a {
+  color: #000;
+}
+
+.image.left:hover .edit {
+  display: block;
 }
 
 .image.left img {
   display: block;
   width: 100%;
+  height: auto;
 }
 
 .image.fit {
