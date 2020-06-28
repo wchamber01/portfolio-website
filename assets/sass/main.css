@@ -1976,6 +1976,12 @@ label {
   top: 0.25em;
 }
 
+.image.left :hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  border: 5px solid red;
+}
+
 .image.left img {
   display: block;
   width: 100%;

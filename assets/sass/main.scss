@@ -523,6 +523,11 @@ label {
     position: relative;
     top: 0.25em;
 
+    :hover {
+      transform: scale(1.25);
+      border: 5px solid red;
+    }
+
     img {
       display: block;
       width: 100%;
@@ -808,12 +813,6 @@ table {
         )
       );
       color: #fff;
-    }
-
-    tfoot {
-    }
-
-    tbody {
     }
   }
 }
