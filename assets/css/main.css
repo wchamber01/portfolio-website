@@ -3368,7 +3368,7 @@ button.small,
   }
 
   #titleBar .title {
-    display: block;
+    display: none;
     position: relative;
     font-weight: 600;
     text-align: center;
